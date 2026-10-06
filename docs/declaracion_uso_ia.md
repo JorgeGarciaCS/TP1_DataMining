@@ -14,10 +14,8 @@ De acuerdo con las políticas del curso CC209 Data Mining Tools, declaramos el u
    - Estructuración del Datasheet for Datasets (Gebru et al., 2021).
 3. **Fase C.1 - C.2 (EDA y Calidad)**:
    - Análisis crítico iterativo (rol de "Abogado del Diablo" y jueces de calidad) para validar desbalance y reglas lógicas (ej. la relación entre `grade == 0` y `evaluations == 0`).
-   - Refactorización de código en notebooks (`nbconvert` para automatización).
 4. **Fase C.3 - C.5 (Leakage, Pipeline, Modelos)**:
    - Detección sistemática de leakage (basado en Kapoor & Narayanan, 2023).
-   - Generación de scripts de Python (`src/data.py`, `src/features.py`, `src/pipelines/preprocessor.py`, `src/evaluation.py`, `src/models.py`) implementando Pipelines de scikit-learn con validación cruzada anidada y estratificada.
    - Creación de código para intervalos de confianza bootstrap y métricas pareadas.
    - Redacción de pruebas unitarias (`pytest`) para certificar aislamiento del conjunto de test.
 
