@@ -1,0 +1,240 @@
+{
+ "fecha": "2026-10-05T19:44:29",
+ "items": {
+  "REF-01": {
+   "title": "Predict Students' Dropout and Academic Success",
+   "year": 2021,
+   "authors": [
+    "Valentim Realinho, Mónica Vieira Martins"
+   ],
+   "container": null,
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "doi": "10.24432/C5MC89"
+  },
+  "REF-02": {
+   "title": "Predicting Student Dropout and Academic Success",
+   "year": 2022,
+   "authors": [
+    "Realinho, Valentim",
+    "Machado, Jorge",
+    "Baptista, Luís",
+    "Martins, Mónica V."
+   ],
+   "container": "Data",
+   "volume": "7",
+   "issue": "11",
+   "page": "146",
+   "doi": "10.3390/data7110146"
+  },
+  "REF-03": {
+   "title": "Leakage and the reproducibility crisis in machine-learning-based science",
+   "year": 2023,
+   "authors": [
+    "Kapoor, Sayash",
+    "Narayanan, Arvind"
+   ],
+   "container": "Patterns",
+   "volume": "4",
+   "issue": "9",
+   "page": "100804",
+   "doi": "10.1016/j.patter.2023.100804"
+  },
+  "REF-04": {
+   "title": "Datasheets for datasets",
+   "year": 2021,
+   "authors": [
+    "Gebru, Timnit",
+    "Morgenstern, Jamie",
+    "Vecchione, Briana",
+    "Vaughan, Jennifer Wortman",
+    "Wallach, Hanna",
+    "III, Hal Daumé",
+    "Crawford, Kate"
+   ],
+   "container": "Communications of the ACM",
+   "volume": "64",
+   "issue": "12",
+   "page": "86-92",
+   "doi": "10.1145/3458723"
+  },
+  "REF-06": {
+   "title": "Cross-validation failure: Small sample sizes lead to large error bars",
+   "year": 2018,
+   "authors": [
+    "Varoquaux, Gaël"
+   ],
+   "container": "NeuroImage",
+   "volume": "180",
+   "issue": null,
+   "page": "68-77",
+   "doi": "10.1016/j.neuroimage.2017.06.061"
+  },
+  "REF-07": {
+   "title": "The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets",
+   "year": 2015,
+   "authors": [
+    "Saito, Takaya",
+    "Rehmsmeier, Marc"
+   ],
+   "container": "PLOS ONE",
+   "volume": "10",
+   "issue": "3",
+   "page": "e0118432",
+   "doi": "10.1371/journal.pone.0118432"
+  },
+  "REF-09": {
+   "title": "Avoiding common machine learning pitfalls",
+   "year": 2024,
+   "authors": [
+    "Lones, Michael A."
+   ],
+   "container": "Patterns",
+   "volume": "5",
+   "issue": "10",
+   "page": "101046",
+   "doi": "10.1016/j.patter.2024.101046"
+  },
+  "REF-10": {
+   "title": "Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead",
+   "year": 2019,
+   "authors": [
+    "Rudin, Cynthia"
+   ],
+   "container": "Nature Machine Intelligence",
+   "volume": "1",
+   "issue": "5",
+   "page": "206-215",
+   "doi": "10.1038/s42256-019-0048-x"
+  },
+  "REF-11": {
+   "title": "Optuna",
+   "year": 2019,
+   "authors": [
+    "Akiba, Takuya",
+    "Sano, Shotaro",
+    "Yanase, Toshihiko",
+    "Ohta, Takeru",
+    "Koyama, Masanori"
+   ],
+   "container": "Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining",
+   "volume": null,
+   "issue": null,
+   "page": "2623-2631",
+   "doi": "10.1145/3292500.3330701"
+  },
+  "REF-13": {
+   "title": "Leakage in data mining",
+   "year": 2012,
+   "authors": [
+    "Kaufman, Shachar",
+    "Rosset, Saharon",
+    "Perlich, Claudia",
+    "Stitelman, Ori"
+   ],
+   "container": "ACM Transactions on Knowledge Discovery from Data",
+   "volume": "6",
+   "issue": "4",
+   "page": "1-21",
+   "doi": "10.1145/2382577.2382579"
+  },
+  "REF-04b": {
+   "title": "Datasheets for Datasets",
+   "year": 2018,
+   "authors": [
+    "Timnit Gebru",
+    "Jamie Morgenstern",
+    "Briana Vecchione",
+    "Jennifer Wortman Vaughan",
+    "Hanna Wallach",
+    "Hal Daumé",
+    "Kate Crawford"
+   ],
+   "arxiv": "1803.09010"
+  },
+  "REF-12": {
+   "title": "A Unified Approach to Interpreting Model Predictions",
+   "year": 2017,
+   "authors": [
+    "Scott Lundberg",
+    "Su-In Lee"
+   ],
+   "arxiv": "1705.07874"
+  },
+  "REF-14": {
+   "title": "Why do tree-based models still outperform deep learning on tabular data?",
+   "year": 2022,
+   "authors": [
+    "Léo Grinsztajn",
+    "Edouard Oyallon",
+    "Gaël Varoquaux"
+   ],
+   "arxiv": "2207.08815"
+  },
+  "REF-09b": {
+   "title": "How to avoid machine learning pitfalls: a guide for academic researchers",
+   "year": 2021,
+   "authors": [
+    "Michael A. Lones"
+   ],
+   "arxiv": "2108.02497"
+  },
+  "REF-05": {
+   "url": "https://jmlr.org/papers/v12/pedregosa11a.html",
+   "title_found": true,
+   "snippet": " window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-131826476-1'); Scikit-learn: Machine Learning in Python . {font-family:verdana,helvetica,sans-serif} a {text-decoration:none;color:#3030a0} #fixed { position: absolute; "
+  },
+  "REF-08": {
+   "crossref_search": [
+    {
+     "title": [
+      "The receiver operating characteristic curve accurately assesses imbalanced datasets"
+     ],
+     "doi": "10.1016/j.patter.2024.100994",
+     "container": [
+      "Patterns"
+     ],
+     "year": 2024,
+     "authors": [
+      "Richardson, Eve",
+      "Trevizani, Raphael",
+      "Greenbaum, Jason A.",
+      "Carter, Hannah",
+      "Nielsen, Morten",
+      "Peters, Bjoern"
+     ]
+    },
+    {
+     "title": [
+      "The ROC-AUC Accurately Assesses Imbalanced Datasets"
+     ],
+     "doi": "10.2139/ssrn.4655233",
+     "container": null,
+     "year": 2023,
+     "authors": [
+      "Richardson, Eve",
+      "Trevizani, Raphael",
+      "Greenbaum, Jason  A.",
+      "Carter, Hannah",
+      "Nielsen, Morten",
+      "Peters, Bjoern"
+     ]
+    },
+    {
+     "title": [
+      "Receiver Operating Characteristic Curve"
+     ],
+     "doi": "10.1201/9781003458098-31",
+     "container": [
+      "Practical Statistics in Medicine with R"
+     ],
+     "year": 2026,
+     "authors": [
+      "Bougioukas, Konstantinos I."
+     ]
+    }
+   ]
+  }
+ }
+}
