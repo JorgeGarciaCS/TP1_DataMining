@@ -1,0 +1,107 @@
+{
+  "prevalencia_dropout_train": 0.3212771969482905,
+  "modelos_oof": {
+    "dummy_prior": {
+      "pr_auc_media": 0.3212771398205196,
+      "pr_auc_sd": 0.0006528862608645576,
+      "roc_auc_media": 0.5,
+      "roc_auc_sd": 0.0
+    },
+    "dummy_todos_dropout": {
+      "pr_auc_media": 0.3212771398205196,
+      "pr_auc_sd": 0.0006528862608645576,
+      "roc_auc_media": 0.5,
+      "roc_auc_sd": 0.0
+    },
+    "regla_aprobadas0": {
+      "pr_auc_media": 0.5044258693765694,
+      "pr_auc_sd": 0.021182135730301452,
+      "roc_auc_media": 0.6730224046658083,
+      "roc_auc_sd": 0.014553309203791318
+    },
+    "logreg": {
+      "pr_auc_media": 0.8607493802140976,
+      "pr_auc_sd": 0.018567087652845867,
+      "roc_auc_media": 0.9035440805869451,
+      "roc_auc_sd": 0.015797941921595265
+    },
+    "random_forest": {
+      "pr_auc_media": 0.8446541790947083,
+      "pr_auc_sd": 0.019756883334359692,
+      "roc_auc_media": 0.8936208947314327,
+      "roc_auc_sd": 0.013812805030676192
+    },
+    "hist_gb": {
+      "pr_auc_media": 0.855359661425044,
+      "pr_auc_sd": 0.01809659257126768,
+      "roc_auc_media": 0.8991759480101122,
+      "roc_auc_sd": 0.014395805744574023
+    }
+  },
+  "comparaciones": {
+    "logreg_vs_rule": {
+      "diff": 0.35767211535231713,
+      "ci_lower": 0.3352658761650962,
+      "ci_upper": 0.37883651908900184
+    },
+    "logreg_vs_dummy": {
+      "diff": 0.5464120954521621,
+      "ci_lower": 0.524527780074814,
+      "ci_upper": 0.5663869388155701
+    },
+    "hgb_vs_logreg": {
+      "diff": -0.0008126848051142055,
+      "ci_lower": -0.007040318409212898,
+      "ci_upper": 0.0053630821652409354
+    }
+  },
+  "ablacion": {
+    "sin_financieras": {
+      "diff": 0.03833159122907137,
+      "ci_lower": 0.028807158921353486,
+      "ci_upper": 0.048368149891785533
+    },
+    "sin_aprobadas": {
+      "diff": 0.11668582978704323,
+      "ci_lower": 0.10135438283238533,
+      "ci_upper": 0.1330484415721204
+    }
+  },
+  "test": {
+    "fecha_evaluacion": "2026-10-05T19:56:01",
+    "modelo": "logreg",
+    "n_evaluaciones_del_test_para_decision": 1,
+    "test_sha256": "11c2e35b8d62671d1ca666dfa4655db7cfb9ae300f8e5ee51a909d2cfac1e0dc",
+    "modelo_sha256": "6588bf536ebc1b2f4424994fee19a7ce1d9f6051744ec1708160be105f758cca",
+    "umbral_fijado_en_train_oof": 0.24228988552273661,
+    "resultados": {
+      "pr_auc": [
+        0.8733507426543612,
+        0.8380604964269075,
+        0.9041496633810534
+      ],
+      "roc_auc": [
+        0.9136591596166015,
+        0.8900880270193866,
+        0.9348629217030797
+      ],
+      "brier": [
+        0.09724723949929485,
+        0.08406784466143787,
+        0.11100608449035643
+      ],
+      "prevalencia_test": 0.32090395480225986,
+      "punto_operacion": {
+        "umbral": 0.24228988552273661,
+        "recall": 0.8626760563380281,
+        "precision": 0.6862745098039216,
+        "f1": 0.7644305772230889,
+        "TP": 245,
+        "FP": 112,
+        "FN": 39,
+        "TN": 489,
+        "alertas_por_100_alumnos": 40.33898305084746
+      }
+    }
+  }
+}
