@@ -1,0 +1,16 @@
+{
+ "fecha": "2026-10-05T19:53:27",
+ "seed": 42,
+ "test_size": 0.2,
+ "estratificado_por": "dropout",
+ "n_total": 4424,
+ "n_train": 3539,
+ "n_test": 885,
+ "prevalencia_train": 0.3213,
+ "prevalencia_test": 0.3209,
+ "duplicados_exactos_antes_split": 0,
+ "filas_identicas_train_test": 0,
+ "raw_sha256": "3ef126de5cefff26eb11fbb4237f1a1401cb64b488e2f1d598c23cedeb4c45ae",
+ "train_sha256": "6ec61567e6a2c3ae50f2686bc651df8a088904c9768b89ffc3475800a65c95db",
+ "test_sha256": "11c2e35b8d62671d1ca666dfa4655db7cfb9ae300f8e5ee51a909d2cfac1e0dc"
+}

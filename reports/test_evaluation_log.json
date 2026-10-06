@@ -1,0 +1,37 @@
+{
+ "fecha_evaluacion": "2026-10-05T19:56:01",
+ "modelo": "logreg",
+ "n_evaluaciones_del_test_para_decision": 1,
+ "test_sha256": "11c2e35b8d62671d1ca666dfa4655db7cfb9ae300f8e5ee51a909d2cfac1e0dc",
+ "modelo_sha256": "6588bf536ebc1b2f4424994fee19a7ce1d9f6051744ec1708160be105f758cca",
+ "umbral_fijado_en_train_oof": 0.24228988552273661,
+ "resultados": {
+  "pr_auc": [
+   0.8733507426543612,
+   0.8380604964269075,
+   0.9041496633810534
+  ],
+  "roc_auc": [
+   0.9136591596166015,
+   0.8900880270193866,
+   0.9348629217030797
+  ],
+  "brier": [
+   0.09724723949929485,
+   0.08406784466143787,
+   0.11100608449035643
+  ],
+  "prevalencia_test": 0.32090395480225986,
+  "punto_operacion": {
+   "umbral": 0.24228988552273661,
+   "recall": 0.8626760563380281,
+   "precision": 0.6862745098039216,
+   "f1": 0.7644305772230889,
+   "TP": 245,
+   "FP": 112,
+   "FN": 39,
+   "TN": 489,
+   "alertas_por_100_alumnos": 40.33898305084746
+  }
+ }
+}
